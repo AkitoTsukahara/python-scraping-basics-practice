@@ -1,5 +1,5 @@
 import requests
-from bs64 import BeautifulSoup
+from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 base_url = 'http://www.webscrapingfordatascience.com/crawler/'
