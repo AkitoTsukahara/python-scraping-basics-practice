@@ -2,9 +2,7 @@ import requests
 import dataset
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urldefrag
-# from joblib import Parallel, delayed
 import joblib
-#import Parallel
 
 db = dataset.connect('sqlite:///wikipedia.db')
 base_url = 'https://en.wikipedia.org/wiki/'
