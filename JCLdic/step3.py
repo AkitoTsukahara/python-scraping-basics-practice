@@ -64,7 +64,3 @@ for data in data_list:
             print(data['url'])
 
 conn.close()
-
-
-
-echo "M&Aクラウド、約10億円の資金調達を完了　M&Aプラットフォームの開発加速と人材採用・組織拡大に投資" | mecab
